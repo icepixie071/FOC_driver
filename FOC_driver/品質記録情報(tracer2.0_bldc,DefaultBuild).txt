@@ -1,0 +1,292 @@
+品質記録情報
+2024年6月2日 19:32:54
+
+------ ビルド開始(tracer2.0_bldc, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RX\V3.05.00\Bin\ccrx.exe src\smc_gen\general\r_cg_hardware_setup.c -isa=rxv2 -fpu -lang=c99 -include=src\smc_gen\Config_S12AD1 -include=src\smc_gen\Config_MTU6 -include=src\smc_gen\Config_DA -include=. -include=src\smc_gen\Config_MTU9 -include=src\smc_gen\Config_MTU0 -include=src\user -include=src\smc_gen\Config_CMT0 -include=src\smc_gen\r_pincfg -include=src\smc_gen\r_config -include=src\smc_gen\r_bsp\mcu\rx66t\register_access\ccrx -include=src\smc_gen\r_bsp\mcu\rx66t -include=src\smc_gen\r_bsp\mcu\all -include=src\smc_gen\r_bsp\board\user -include=src\smc_gen\r_bsp\board\generic_rx66t -include=src\smc_gen\r_bsp -include=src\smc_gen\general -include=src\smc_gen\Config_S12AD0 -include=src\smc_gen\Config_PORT -include=src\smc_gen\Config_MTU3_MTU4 -output=obj=DefaultBuild\r_cg_hardware_setup.obj -debug -g_line -nologo
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RX\V3.05.00\Bin\rlink.exe -subcommand=DefaultBuild\tracer2.0_bldc.clnk
+W0561017:Paid license of CC-RX V3 is not found, and the evaluation period has expired. Please consider purchasing the product.
+W0561017:Paid license of CC-RX V3 is not found, and the evaluation period has expired. Please consider purchasing the product.
+Renesas Optimizing Linker Completed
+------ ビルド終了(エラー:0個, 警告:2個)(tracer2.0_bldc, DefaultBuild) ------
+
+--- CommandFile 1 ---
+DefaultBuild\tracer2.0_bldc.clnk :
+-library=DefaultBuild\tracer2.0_bldc.lib
+-input=DefaultBuild\main.obj
+-input=DefaultBuild\Config_MTU3_MTU4.obj
+-input=DefaultBuild\Config_MTU3_MTU4_user.obj
+-input=DefaultBuild\Config_PORT.obj
+-input=DefaultBuild\Config_PORT_user.obj
+-input=DefaultBuild\Config_S12AD0.obj
+-input=DefaultBuild\Config_S12AD0_user.obj
+-input=DefaultBuild\r_cg_hardware_setup.obj
+-input=DefaultBuild\r_smc_cgc.obj
+-input=DefaultBuild\r_smc_cgc_user.obj
+-input=DefaultBuild\r_smc_interrupt.obj
+-input=DefaultBuild\hwsetup.obj
+-input=DefaultBuild\dbsct.obj
+-input=DefaultBuild\lowlvl.obj
+-input=DefaultBuild\lowsrc.obj
+-input=DefaultBuild\mcu_locks.obj
+-input=DefaultBuild\resetprg.obj
+-input=DefaultBuild\r_bsp_common.obj
+-input=DefaultBuild\r_bsp_cpu.obj
+-input=DefaultBuild\r_bsp_interrupts.obj
+-input=DefaultBuild\r_bsp_locking.obj
+-input=DefaultBuild\r_bsp_mcu_startup.obj
+-input=DefaultBuild\r_bsp_software_interrupt.obj
+-input=DefaultBuild\r_rx_intrinsic_functions.obj
+-input=DefaultBuild\sbrk.obj
+-input=DefaultBuild\mcu_clocks.obj
+-input=DefaultBuild\mcu_init.obj
+-input=DefaultBuild\mcu_interrupts.obj
+-input=DefaultBuild\mcu_mapped_interrupts.obj
+-input=DefaultBuild\vecttbl.obj
+-input=DefaultBuild\Pin.obj
+-input=DefaultBuild\Config_CMT0.obj
+-input=DefaultBuild\Config_CMT0_user.obj
+-input=DefaultBuild\Config_MTU0.obj
+-input=DefaultBuild\Config_MTU0_user.obj
+-input=DefaultBuild\Config_MTU9.obj
+-input=DefaultBuild\Config_MTU9_user.obj
+-input=DefaultBuild\Config_DA.obj
+-input=DefaultBuild\Config_DA_user.obj
+-input=DefaultBuild\Config_MTU6.obj
+-input=DefaultBuild\Config_MTU6_user.obj
+-input=DefaultBuild\Config_S12AD1.obj
+-input=DefaultBuild\Config_S12AD1_user.obj
+-noprelink
+-output=DefaultBuild\tracer2.0_bldc.abs
+-vect=_undefined_interrupt_source_isr
+-list=DefaultBuild\tracer2.0_bldc.map
+-nooptimize
+-start=SU,SI,B_1,R_1,B_2,R_2,B,R/4,C_1,C_2,C,C$*,D*,W*,L,P*/FFF80000,EXCEPTVECT/FFFFFF80,RESETVECT/FFFFFFFC
+-rom=D=R,D_1=R_1,D_2=R_2
+-nologo
+-end
+-input=DefaultBuild\tracer2.0_bldc.abs
+-output=DefaultBuild\tracer2.0_bldc.mot
+-form=stype
+-exit
+
+
+--- SHA1 hash value of output files ---
+C:\Users\sekiy\OneDrive\ドキュメント\CS+_projects\FOC_driver\DefaultBuild\tracer2.0_bldc.abs: 0e834b9bbc74435676790a922c235b16d668cabd
+C:\Users\sekiy\OneDrive\ドキュメント\CS+_projects\FOC_driver\DefaultBuild\tracer2.0_bldc.mot: 04db0f0bfb101661ba8571fa10937722f972f16c
+
+
+--- システム情報 ---
+*OS バージョン
+ Microsoft Windows 10 Pro (-, 10.0.19045, WOW64)
+*言語
+ 日本語 (日本)
+*.NET Framework バージョン
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (533325)
+
+--- アプリケーション情報 ---
+*製品名
+ CS+ for CC
+*パッケージ・バージョン
+ V8.10.00  [06 Jun 2023]
+*バージョン
+ V9.10.00.03 [23 May 2023]
+*アセンブリ・バージョン
+ 3.12.10.1
+*拠点情報
+ Japan
+*製品ライセンス
+ 
+*実行場所
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*メモリ使用量
+ *プライベート・ワーキング・セット
+  472 MB
+ *GDIオブジェクト数
+  2359
+ *USERオブジェクト数
+  1449
+ *開いているファイル
+  10 editors, 10 files, 75 KB
+
+--- ビルド・ツール・プラグイン情報 ---
+RH850ビルド・ツールCC-RH用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.10.12
+ *DLL ファイル名
+  BuildToolCCRH.dll
+RL78ビルド・ツールCC-RL用プラグイン
+ *バージョン
+  V8.09.00.01 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolCCRL.dll
+RXビルド・ツールCC-RX用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  BuildToolCCRX.dll
+RH850ビルド・ツールGHS CCRH850用プラグイン
+ *バージョン
+  V1.08.00.00 [03 Apr 2023]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolGHSCCRH850.dll
+
+--- デバッグ・ツール・プラグイン情報 ---
+デバッガ・コレクション・プラグイン
+ *バージョン
+  V8.10.00.02 [12 May 2023]
+ *アセンブリ・バージョン
+  2.12.10.1
+ *DLL ファイル名
+  DebugToolCollection.dll
+
+--- その他のプラグイン情報 ---
+RH850用コード生成
+ *バージョン
+  V1.02.02.05 [25 May 2018]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodeGeneratorRH850.dll
+コード生成プラグイン
+ *バージョン
+  V4.08.06.01 [28 Oct 2022]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  CodePart.dll
+コード生成／端子図プラグイン
+ *バージョン
+  V2.10.07.02 [08 Nov 2021]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodePart2.dll
+デバッグ・コンソール・プラグイン
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  8.9.0.0
+ *DLL ファイル名
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *バージョン
+  V9.09.00.01 [18 Oct 2022]
+ *アセンブリ・バージョン
+  1.15.10.16
+ *DLL ファイル名
+  InCarTools.dll
+端子配置プラグイン
+ *バージョン
+  V1.54.01.01 [31 Jul 2014]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PinConfig.dll
+プログラム解析プラグイン
+ *バージョン
+  V4.13.00.03 [24 May 2023]
+ *アセンブリ・バージョン
+  3.12.11.9
+ *DLL ファイル名
+  ProgramAnalyzer.dll
+IronPythonコンソール・プラグイン
+ *バージョン
+  V1.46.00.02 [08 May 2023]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PythonConsole.dll
+エディタ・パネル
+ *バージョン
+  V1.19.00.01 [24 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.0.0
+ *DLL ファイル名
+  SEditor.dll
+RX用スマート・コンフィグレータ通信プラグイン
+ *バージョン
+  V1.02.20.01 [07 Aug 2023]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  SmcCodePartRX.dll
+スタック見積もりツール
+ *バージョン
+  V1.05.00.02 [30 Jul 2014]
+ *アセンブリ・バージョン
+  1.30.11.15
+ *DLL ファイル名
+  Stk.dll
+アップデート・マネージャ・プラグイン
+ *バージョン
+  V2.03.00.02 [29 Oct 2018]
+ *アセンブリ・バージョン
+  1.13.6.20
+ *DLL ファイル名
+  Update.dll
+
+デバッグ・ツール共通インタフェース
+ *バージョン
+  V8.10.00.02 [12 May 2023]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  CommonDebuggerInterface.dll
+デバイス情報共通インタフェース
+ *バージョン
+  V9.10.00.01 [14 Apr 2023]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  DeviceInformation.dll
+
+--- メイン・プロジェクト情報 ---
+C:\Users\sekiy\OneDrive\ドキュメント\CS+_projects\FOC_driver\tracer2.0_bldc.mtpj
+マイクロコントローラ情報
+ *R5F566TEAxFM
+  *ファイル名: バージョン
+   RX_Productlist.xml: V3.130000
+   R5F566TEAxFM_common.xml: V3.13.00
+   -: -
+   -: -
+   RX66T.ddi: 1.21
+  
+
+ビルド・ツール情報
+ *CC-RX
+   * プラグイン(*.dll)のバージョン
+     V8.10.00.02 [08 May 2023]
+   * コンパイラ・パッケージのバージョン
+     V3.05.00
+  
+
+デバッグ・ツール情報
+ *RX E1(Serial)
+  Debugger Library V8.10.00.02 [12 May 2023]
+  
+
+その他のツール情報
+ *なし
+
+ *なし
+
+ *なし
+
+ *なし
+
+ *プログラム解析
+  *バージョン
+   V4.13.00.03 [24 May 2023]
+
+ *スマート・コンフィグレータ
+ *なし
+
+
